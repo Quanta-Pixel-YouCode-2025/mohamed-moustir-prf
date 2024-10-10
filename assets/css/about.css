@@ -1,11 +1,4 @@
-
-body{
-
-}
-a{
-    
-}
-.navbar-dark {
-    border: 2px solid ;
-    
-}
+.contact-continer{
+    display: flex;
+    background-color: red;
+    }
