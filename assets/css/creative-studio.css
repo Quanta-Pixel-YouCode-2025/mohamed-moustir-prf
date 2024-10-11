@@ -12127,3 +12127,7 @@ input {
   display: none;
   
 }
+.box-item:hover{
+ opacity: 0.8;
+ cursor: pointer;
+}
