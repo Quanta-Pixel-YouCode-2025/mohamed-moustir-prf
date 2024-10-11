@@ -18,7 +18,7 @@ $(document).ready(function(){
 
         if (this.hash !== "") {
 
-            event.preventDefault();
+            // event.preventDefault();
 
             var hash = this.hash;
 
@@ -30,3 +30,24 @@ $(document).ready(function(){
         } 
     });
 }); 
+
+
+
+let up =document.querySelector("#up");
+window.onscroll=function(){
+    if (scrollY >= 500) {
+        up.style.display="block"
+    }else{
+        up.style.display="none"
+
+    }
+
+}
+
+up.onclick=function(){
+    window.scrollTo({
+        top:0,
+        left:0,
+        behavior:"smooth"
+    })
+}
